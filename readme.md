@@ -10,6 +10,15 @@ npm install china-area-data
 
 目录下的 `data.json` 默认为最新版本。务必先查看变更再升级大版本。
 
+### v6
+
+[国家统计局统计数据（2021年10月31日）](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2021/index.html)
+
+* 对项目所使用的依赖进行全面升级到最新版本，升级时间点为2022年6月9日
+* 替换原项目```request```插件为```superagent```，原```request```组件已不再维护
+* 由于国家统计局官网已全面使用utf-8编码，去掉了gbk转utf-8的逻辑
+* 港澳台地区信息延用老数据，没有更新
+
 ### v5
 
 [国家统计局统计数据（2019年10月31日）](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/index.html)

@@ -16,11 +16,10 @@
   "author": "airyland@qq.com",
   "license": "MIT",
   "devDependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "iconv": "^3.0.0",
-    "iconv-lite": "^0.6.0",
-    "md5": "^2.2.1",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.5"
+    "cheerio": "^1.0.0-rc.11",
+    "iconv-lite": "^0.6.3",
+    "md5": "^2.3.0",
+    "iconv": "^3.0.1",
+    "superagent": "^7.1.6"
   }
 }
